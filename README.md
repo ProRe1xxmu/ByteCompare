@@ -6,8 +6,8 @@ simple python script which showing different bytes in files.
 
 FLAGS:
 - -region(OPTIONAL): Script uses 16byte lines, -region flag sets region(in lines), which script will compare in files. if -region is not presented, script compares both files completly
-- - -lf: first file to compare
-- - -rf: second file to compare
+- -lf: first file to compare
+- -rf: second file to compare
 
 <img width="1698" height="596" alt="image" src="https://github.com/user-attachments/assets/368bf03b-88d7-4d9e-ae12-e3c79528f16f" />
 
