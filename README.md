@@ -5,9 +5,9 @@ simple python script which showing different bytes in files.
   python3 bcomp.py -region 0xFROM-0xTO -lf path/to/first_file -rf path/to/second_file 
 
 FLAGS:
--region(OPTIONAL): Script uses 16byte lines, -region flag sets region(in lines), which script will compare in files. if -region is not presented, script compares both files completly
--lf: first file to compare
--rf: second file to compare
+- -region(OPTIONAL): Script uses 16byte lines, -region flag sets region(in lines), which script will compare in files. if -region is not presented, script compares both files completly
+- -lf: first file to compare
+- -rf: second file to compare
 
 <img width="1698" height="596" alt="image" src="https://github.com/user-attachments/assets/368bf03b-88d7-4d9e-ae12-e3c79528f16f" />
 
