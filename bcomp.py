@@ -21,7 +21,7 @@ def reading(FilePath):
 		exit(f"{Back.RED}Error{Back.BLACK}:{e}")
 
 for arg in sys.argv:
-	if arg == "-h" or "-help":
+	if arg in ("-h", "-help"):
 		exit(f"ByteCompare - Compare files, see difference\n" +
 		"Usage: python3 bcomp.py -region 0xFROM-0xTO -lf path/to/first_file -rf path/to/second_file\n" + 
 		"\nFLAGS:\n-region(OPTIONAL): Script uses 16byte lines, -region flag sets region(in lines), which"+
